@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fefefe;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+
+  nav {
+    background-color: #d4c1bd;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    background-color: white;
+    color: #d4c1bd;
+    border-radius: 5px;
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+
+  h1, h2 {
+    margin-bottom: 10px;
+    color: #6f4f4f;
+  }
+  
+
+  img {
+    border-radius: 50%;
+    border: 3px solid #d4c1bd;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100px;
+    border-radius: 50%;
+    border: 2px solid #d4c1bd;
+    margin-bottom: 10px;
+  }
+  
+
+  .modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-toggle:checked + .modal {
+    display: flex;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    max-height: 80vh;   
+    overflow-y: auto;
+  }
+  
+  .modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #d4c1bd;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #bfa8a3;
+  }
+  
