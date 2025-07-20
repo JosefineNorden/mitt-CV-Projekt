@@ -15,7 +15,7 @@ async function LoadCV() {
 }
 
 function populateCV(cvData) {
-  // Fyll utbildningar
+  // utbildningar
   const educationSection = document.getElementById("educationSubsection");
   cvData.utbildningar.forEach(utbildning => {
     educationSection.innerHTML += `
@@ -28,7 +28,7 @@ function populateCV(cvData) {
     `;
   });
 
-  // Fyll arbeten
+  // arbeten
   const workSection = document.getElementById("workSubsection");
   cvData.arbeten.forEach(arbete => {
     workSection.innerHTML += `
@@ -41,7 +41,7 @@ function populateCV(cvData) {
     `;
   });
 
-  // Fyll övrigt
+  // övrigt
   const otherSection = document.getElementById("otherSubsection");
   cvData.övrigt.forEach(item => {
     otherSection.innerHTML += `
@@ -54,5 +54,5 @@ function populateCV(cvData) {
   });
 }
 
-// Kör funktionen när sidan laddas
+//sidan laddas
 LoadCV();
