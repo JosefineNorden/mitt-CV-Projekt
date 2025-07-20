@@ -1,0 +1,44 @@
+{
+  "utbildningar": [
+    {
+      "titel": "Systemutvecklare .NET",
+      "lärosäte": "Campus Varberg",
+      "tid": "2024–2026",
+      "beskrivning": "En utbildning där jag lär mig utveckla programvara med C# och .NET."
+    }
+  ],
+  "arbeten": [
+  {
+    "titel": "Omsorgsbiträde",
+    "arbetsköpare": "Marks Kommun",
+    "tid": "2016–2017",
+    "beskrivning": "Arbete inom äldreomsorgen."
+  },
+  {
+    "titel": "Personlig Assistent",
+    "arbetsköpare": "Marks Kommun",
+    "tid": "2017–2021",
+    "beskrivning": "Assisterade en person i vardagen."
+  },
+  {
+    "titel": "Stallpersonal",
+    "arbetsköpare": "TomCar Racing",
+    "tid": "2020–2021",
+    "beskrivning": "Hjälpte till i travstall med daglig skötsel av hästar."
+  },
+  {
+    "titel": "Hästskötare",
+    "arbetsköpare": "Robert Bergh AB",
+    "tid": "2023–2024",
+    "beskrivning": "Skötte om travhästar, stalltjänst och tävlingsresor."
+  }
+],
+"övrigt": [
+  {
+    "titel": "Praktik – Systemutvecklare",
+    "merinfo": "2025–2026",
+    "beskrivning": "Framtida praktik på ett IT-företag."
+  }
+]
+}
+

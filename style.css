@@ -135,4 +135,11 @@
   .btn:hover {
     background-color: #bfa8a3;
   }
+
+  footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eeeeee;
+  cursor: pointer;
+}
   

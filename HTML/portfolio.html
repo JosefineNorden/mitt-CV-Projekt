@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josefine Nordén - Portfolio</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Om mig</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="om.html">Övrigt</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Portfolio</h1>
+
+    <section class="project">
+      <h2>Padelbokningssystem</h2>
+      <img src="../bilder/Padel.png" alt="Bild på padel" width="250">
+
+      <label for="modal1" class="btn">Mer info</label>
+      <input type="checkbox" id="modal1" class="modal-toggle" hidden>
+
+
+      <div class="modal">
+        <div class="modal-content">
+          <label for="modal1" class="close">&times;</label>
+          <h3>Beskrivning av Padelbokningssystemet:</h3>
+          <p>PadelBookingAPI är ett REST-API för bokning av padelbanor med tre banor. Systemet är byggt i .NET 8 med:</p>
+
+<ul>
+  <li>Entity Framework Core</li>
+  <li>Repository Pattern</li>
+  <li>Swagger</li>
+  <li>Postman</li>
+  <li>xUnit (enhetstester)</li>
+</ul>
+
+<p>Systemet innehåller följande funktioner:</p>
+
+<ul>
+  <li>CRUD för kunder och bokningar</li>
+  <li>Validering av bokningar (tider, dubbelbokning, öppettider)</li>
+  <li>Se bokningar för en viss dag</li>
+  <li>Visa tillgängliga tider för ett datum</li>
+  <li>Räkna antal bokningar mellan två datum</li>
+</ul>
+
+<p>Testade user stories:</p>
+
+<ul>
+  <li>Som kund kan jag se lediga tider</li>
+  <li>Som kund kan jag boka en bana i en timme</li>
+  <li>Som admin kan jag se bokningar en viss dag</li>
+  <li>Som admin kan jag se antal bokningar mellan datum</li>
+</ul>
+
+<p>Systemet tillåter:</p>
+<ul>
+  <li>Endast hela timmar</li>
+  <li>Endast bokning mellan 07:00–22:00</li>
+  <li>Ej dubbelbokning</li>
+</ul>
+
+<p>Testning:</p>
+<ul>
+  <li>Enhetstester i xUnit</li>
+  <li>API-testning i Postman</li>
+</ul>
+        </div>
+      </div>
+    </section>
+    <section id="github-projects">
+      <h2>Mina GitHub-projekt</h2>
+      <p id="loading">Laddar projekt...</p>
+      <ul id="project-list"></ul>
+    </section>
+  </main>
+
+  <script src="../JAVASCRIPT/portfolio.js" defer></script>
+
+</body>
+</html>
+
+
