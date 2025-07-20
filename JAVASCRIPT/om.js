@@ -4,14 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (horseImage) {
     horseImage.addEventListener("click", () => {
-      document.body.style.backgroundImage = "url('/mitt-CV-Projekt/bilder/Giggan.jpg')";
+      document.body.style.backgroundImage = "url('bilder/Giggan.jpg')";
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundPosition = "center";
     });
   }
 });
-
 
 let keySequence = "";
 const targetCode = "1234";
@@ -28,7 +27,6 @@ document.addEventListener("keydown", (event) => {
     keySequence = "";
   }
 });
-
 
 function showModal(message) {
   const modal = document.createElement("div");
