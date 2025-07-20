@@ -1,6 +1,6 @@
 async function LoadCV() {
   try {
-    const response = await fetch("JSON/cv.json"); // Vägen från HTML/cv.html till JSON-filen
+    const response = await fetch("json/cv.json"); // Vägen från HTML/cv.html till JSON-filen
 
     if (!response.ok) {
       throw new Error('Kunde inte hämta cv.json');

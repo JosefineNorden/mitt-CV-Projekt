@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (horseImage) {
     horseImage.addEventListener("click", () => {
-      document.body.style.backgroundImage = "url('bilder/Giggan.jpg')";
+      document.body.style.backgroundImage = "url('/mitt-CV-Projekt/bilder/Giggan.jpg')";
       document.body.style.backgroundSize = "cover";
       document.body.style.backgroundRepeat = "no-repeat";
       document.body.style.backgroundPosition = "center";
